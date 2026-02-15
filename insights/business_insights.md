@@ -1,130 +1,66 @@
-# Business Insights — Sales Analysis
+# 📊 Insights
 
-## Principais descobertas
+## Receita Total
 
-- A região com maior receita foi North (Norte).
-- A melhor peformance geral foi obtida pelo vendedor David.
-- Clientes recorrentes geram maior ticket médio.
-- Canal Retail possui maior volume de vendas e receitas.
-- Categoria mais lucrativa: Clothing (Roupas).
+A empresa gerou um faturamento total de R$ 5,02 milhões no período analisado, indicando forte volume de vendas. Esse valor serve como base para análises de crescimento, lucratividade e performance por região e canal de vendas.
 
-## Recomendações
+## Receita por Região
 
-- Investir em marketing na região de maior crescimento.
-- Incentivar retenção de clientes.
-- Otimizar preços de produtos com menor margem.
+![Performance por Região](images/receita_por_regiao.png)
 
+A análise de receita por região mostrou que a região North possui o maior faturamento, seguida por East e West com desempenho semelhante. A região South apresentou menor receita, indicando oportunidade de crescimento. A distribuição equilibrada entre regiões sugere boa diversificação geográfica das vendas.
 
-## 📊 Performance por Vendedor — Receita
+## Receita por Vendedor (Sales Rep)
 
-![Performance por vendedor](images/performance_receita.png)
+![Performance por vendedor](images/receita_por_vendedor.png)
 
----
+A análise de receita por vendedor mostrou que David é o principal gerador de receita, seguido por Bob. Eve e Alice apresentaram desempenho semelhante, enquanto Charlie registrou o menor faturamento, indicando oportunidades de melhoria. A distribuição relativamente equilibrada sugere boa contribuição geral da equipe de vendas.
 
-## 📈 Comparação Receita vs Vendas
+## Vendas por Categoria de Produto
 
-![Receita vs Vendas](images/receita_vs_vendas.png)
+![Performance por Categoria de Produto](images/receita_categoria_produto.png)
 
-### 🔎 Insights
+A análise da receita e quantidade vendida por categoria mostra diferenças relevantes no desempenho dos produtos e no comportamento de consumo dos clientes.
 
-✅ **Correlação positiva entre vendas e receita**  
-- Quanto maior o número de vendas, maior tende a ser a receita.
-- Indica relação direta entre volume de vendas e faturamento.
+* **Clothing** lidera em faturamento (**R$ 1,31 milhão**) e volume de vendas (6.922 unidades), indicando alta demanda e forte contribuição para a receita total.
+* **Furniture** apresenta a segunda maior receita (**R$ 1,26 milhão**) e alto volume de vendas (6.729 unidades), sugerindo boa aceitação no mercado e possível ticket médio elevado.
+* **Electronics** gera receita elevada (**R$ 1,24 milhão**) com menor quantidade vendida (6.096 unidades), indicando produtos de maior valor unitário.
+* **Food** possui a menor receita total (**R$ 1,20 milhão**), apesar do bom volume de vendas (5.608 unidades), sugerindo produtos de menor ticket médio e alta rotatividade.
 
-✅ **David apresenta melhor desempenho geral**  
-- Maior volume de vendas e maior receita.
-- Indica alta eficiência comercial.
+## Clientes Novos vs Recorrentes
 
-✅ **Bob possui alta geração de receita por venda**  
-- Receita elevada com volume similar a outros vendedores.
-- Sugere ticket médio elevado.
+![Performance por Clientes](images/receita_clientes.png)
 
-✅ **Alice demonstra boa eficiência**  
-- Receita relevante mesmo com menor volume de vendas.
-- Indica vendas de maior valor médio.
+A análise da receita entre clientes novos e recorrentes mostra um equilíbrio significativo no faturamento gerado por ambos os grupos.
 
-⚠️ **Charlie apresenta menor eficiência comercial**  
-- Baixo volume e menor receita.
-- Oportunidade de melhoria em conversão ou valor de vendas.
+1. Receita praticamente equilibrada entre os grupos:
+* Clientes recorrentes: R$ 2,51 milhões
+* Clientes novos: R$ 2,50 milhões
+2. Leve vantagem dos clientes recorrentes, mesmo com menor quantidade:
+* Recorrentes: 496 clientes
+* Novos: 504 clientes
 
----
+Indica que clientes recorrentes possuem maior valor médio por compra.
+Boa capacidade de aquisição de novos clientes, já que o número de novos clientes é maior.
+Fidelização eficiente, pois clientes recorrentes continuam gerando receita relevante.
 
-### 💡 Recomendações
-- Avaliar estratégias de aumento do ticket médio.
-- Identificar práticas de vendedores com maior eficiência.
-- Implementar métricas de performance combinando volume e valor de vendas.
+## Receita por Método de Pagamento
 
+![Performance por Método de Pagamento](images/receita_metodo_pagamento.png)
 
-## 📈 Receita Mensal — Análise
+A análise da receita por método de pagamento revela diferenças no comportamento de compra dos clientes e nas preferências de pagamento.
 
-![Receita Mensal](images/receita_mensal.png)
+* **Credit Card** é o principal método de pagamento, gerando R$ 1,76 milhão em receita, indicando maior preferência dos clientes por pagamentos rápidos e parceláveis.
+* **Bank Transfer** apresenta desempenho muito próximo (R$ 1,72 milhão), demonstrando forte adesão a pagamentos digitais e possivelmente maior uso em compras de maior valor.
+* **Cash** possui a menor receita (R$ 1,54 milhão), sugerindo menor utilização em comparação aos métodos eletrônicos.
 
-### 🔎 Insights
+## Vendas por Canal (Online vs Retail)
 
-✅ **David lidera em receita total**  
-- Maior faturamento entre todos os vendedores.
-- Maior volume de vendas, indicando alta produtividade comercial.
+![Performance por Canal](images/receita_canal_vendas.png)
 
-✅ **Bob apresenta forte desempenho**  
-- Segunda maior receita.
-- Alto volume de vendas, mostrando consistência.
+A análise da receita por canal de vendas mostra um desempenho equilibrado entre os canais físico e digital, com leve vantagem para o varejo tradicional.
+* **Retail** apresenta a maior receita (R$ 2,56 milhões) e maior volume de vendas (512 transações), indicando forte desempenho do canal físico.
+* **Online** gerou R$ 2,46 milhões com 488 vendas, demonstrando alta relevância do canal digital e forte participação no faturamento total.
 
-✅ **Eve e Alice apresentam desempenho semelhante**  
-- Receita próxima entre ambos.
-- Potencial de crescimento com aumento de volume de vendas.
-
-⚠️ **Charlie apresenta menor receita**  
-- Menor volume de vendas.
-- Pode indicar necessidade de melhoria em performance ou estratégia comercial.
-
----
-
-### 💡 Recomendações
-- Investigar estratégias utilizadas por David para replicação.
-- Avaliar oportunidades de treinamento para vendedores com menor desempenho.
-- Monitorar produtividade individual e conversão de vendas.
-
-
-### 🔎 Visão geral
-A receita mensal apresentou comportamento relativamente estável ao longo de 2023, com variações moderadas entre aproximadamente 370 mil e 470 mil por mês. O padrão indica consistência nas vendas, sem tendências claras de crescimento ou queda contínua no período.
-
----
-
-### 📊 Principais insights
-
-✅ **Maior receita:**  
-- Janeiro/2023 → 476.092,36  
-- Novembro/2023 → 467.482,90  
-- Outubro/2023 → 460.378,78  
-
-Esses meses representam os picos de faturamento do período, sugerindo maior demanda ou sazonalidade.
-
-✅ **Menor receita em 2023:**  
-- Setembro/2023 → 367.837,60  
-- Fevereiro/2023 → 368.919,36  
-
-Indica períodos de menor desempenho comercial.
-
-✅ **Estabilidade ao longo do ano:**  
-- Receita média mensal relativamente constante.
-- Variações moderadas entre meses.
-- Não há tendência clara de crescimento contínuo.
-
-⚠️ **Queda acentuada em Janeiro/2024:**  
-- Receita muito inferior aos demais meses.
-- Provável mês incompleto ou dados parciais.
-- Recomendado validar a integridade dos dados.
-
----
-
-### 💡 Recomendações estratégicas
-
-- Investigar fatores que impulsionaram vendas nos meses de maior receita.
-- Analisar causas da queda nos meses de menor desempenho.
-- Validar dados de 2024 antes de análises de tendência.
-- Monitorar sazonalidade para planejamento de campanhas e estoque.
-
----
-
-### 📌 Conclusão
-O negócio apresenta receita estável ao longo de 2023, com variações sazonais moderadas. A consistência no faturamento indica operação equilibrada, mas oportunidades existem na otimização de períodos de menor desempenho e investigação de fatores que geram picos de receita.
+A diferença de receita entre os canais é pequena, sugerindo um modelo de vendas bem distribuído entre os ambientes físico e online.
+O canal Retail possui maior volume de vendas, enquanto o canal Online apresenta desempenho muito competitivo mesmo com menos transações.
